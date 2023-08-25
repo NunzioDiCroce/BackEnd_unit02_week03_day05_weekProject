@@ -3,6 +3,8 @@ package com.example.GestioneIncendi;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
+// HO REALIZZATO L'APPLICAZIONE IMPLEMENTANDO IL DESIGN PATTERN OBSERVER
+
 @Component
 public class GestioneIncendiRunner implements CommandLineRunner {
 

@@ -20,13 +20,6 @@ public class Sonda implements SondaInterface {
 	private int livelloFumo;
 	private List<Centrale> osservatori = new ArrayList<>();
 
-	public void rilevaLivelloFumo(int livelloFumo) {
-		this.livelloFumo = livelloFumo;
-		if (livelloFumo > 5) {
-			notifyOsservatori();
-		}
-	}
-
 	@Override
 	public void addOsservatore(Centrale osservatore) {
 		// TODO Auto-generated method stub
@@ -44,6 +37,13 @@ public class Sonda implements SondaInterface {
 		// TODO Auto-generated method stub
 		for (Centrale osservatore : osservatori) {
 			osservatore.comunicaAllarme(this);
+		}
+	}
+
+	public void rilevaLivelloFumo(int livelloFumo) {
+		this.livelloFumo = livelloFumo;
+		if (livelloFumo > 5) {
+			notifyOsservatori();
 		}
 	}
 
