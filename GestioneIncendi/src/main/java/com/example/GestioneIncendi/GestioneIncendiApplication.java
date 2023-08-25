@@ -18,7 +18,7 @@ public class GestioneIncendiApplication {
 		sonda01.setLongitudine(10.0000);
 		sonda01.addOsservatore(centrale);
 		// sonda01.setLivelloFumo(0);
-		sonda01.rilevaLivelloFumo(5);
+		sonda01.rilevaLivelloFumo(0);
 
 		// SONDA02
 		Sonda sonda02 = new Sonda();

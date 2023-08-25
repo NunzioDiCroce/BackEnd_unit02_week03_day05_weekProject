@@ -3,6 +3,8 @@ package com.example.GestioneIncendi;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Component;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -14,6 +16,7 @@ import lombok.extern.slf4j.Slf4j;
 @AllArgsConstructor
 @NoArgsConstructor
 @Slf4j
+@Component
 public class Sonda implements SondaInterface {
 
 //	private static final Logger logger = LoggerFactory.getLogger(Sonda.class);
