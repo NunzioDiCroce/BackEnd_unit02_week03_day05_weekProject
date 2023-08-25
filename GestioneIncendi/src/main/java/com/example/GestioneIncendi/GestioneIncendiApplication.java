@@ -27,7 +27,7 @@ public class GestioneIncendiApplication {
 		sonda02.setLongitudine(20.0000);
 		sonda02.addOsservatore(centrale);
 		// sonda02.setLivelloFumo(0);
-		sonda02.rilevaLivelloFumo(7);
+		sonda02.rilevaLivelloFumo(5);
 
 		// SONDA03
 		Sonda sonda03 = new Sonda();
@@ -36,7 +36,7 @@ public class GestioneIncendiApplication {
 		sonda03.setLongitudine(30.0000);
 		sonda03.addOsservatore(centrale);
 		// sonda03.setLivelloFumo(0);
-		sonda03.rilevaLivelloFumo(0);
+		sonda03.rilevaLivelloFumo(6);
 
 		// SONDA04
 		Sonda sonda04 = new Sonda();
@@ -45,7 +45,7 @@ public class GestioneIncendiApplication {
 		sonda04.setLongitudine(40.0000);
 		sonda04.addOsservatore(centrale);
 		// sonda04.setLivelloFumo(6);
-		sonda04.rilevaLivelloFumo(6);
+		sonda04.rilevaLivelloFumo(10);
 
 	}
 
