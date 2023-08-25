@@ -1,5 +1,7 @@
 package com.example.GestioneIncendi;
 
+// This class is the Observer
+
 public class Centrale {
 
 	public void comunicaAllarme(Sonda sonda) {
