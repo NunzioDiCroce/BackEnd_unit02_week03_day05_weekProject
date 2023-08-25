@@ -3,6 +3,9 @@ package com.example.GestioneIncendi;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+//DESIGN PATTERN: OBSERVER
+//Centrale is the Observer
+
 @SpringBootApplication
 public class GestioneIncendiApplication {
 

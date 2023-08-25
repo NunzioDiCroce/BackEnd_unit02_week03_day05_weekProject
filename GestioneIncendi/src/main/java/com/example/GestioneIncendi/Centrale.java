@@ -3,6 +3,7 @@ package com.example.GestioneIncendi;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
+// DESIGN PATTERN: OBSERVER
 // This class is the Observer
 
 @Component
