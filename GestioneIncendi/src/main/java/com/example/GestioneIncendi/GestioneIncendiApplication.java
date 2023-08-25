@@ -9,6 +9,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class GestioneIncendiApplication {
 
+//	// Parametrizzazione canale di comunicazione sonda - centrale
+//	@Value("${appChannel}")
+//	private static String appChannel;
+
 	public static void main(String[] args) {
 		SpringApplication.run(GestioneIncendiApplication.class, args);
 
