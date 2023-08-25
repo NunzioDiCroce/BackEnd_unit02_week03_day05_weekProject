@@ -22,7 +22,7 @@ public class Sonda {
 
 		if (livelloFumo > 5) {
 
-			// notificaObserves
+			// notificaObservers
 
 		}
 	}
