@@ -1,9 +1,11 @@
 package com.example.GestioneIncendi;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
 // This class is the Observer
 
+@Component
 public class Centrale {
 
 	// Parametrizzazione canale di comunicazione sonda - centrale
