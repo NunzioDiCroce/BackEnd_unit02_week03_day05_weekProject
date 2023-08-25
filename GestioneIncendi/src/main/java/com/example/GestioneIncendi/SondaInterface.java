@@ -2,9 +2,9 @@ package com.example.GestioneIncendi;
 
 public interface SondaInterface {
 
-	void addOsservatore(Centrale centrale);
+	void addOsservatore(Centrale osservatore);
 
-	void removeOsservatore(Centrale centrale);
+	void removeOsservatore(Centrale osservatore);
 
 	void notifyOsservatori();
 
