@@ -43,7 +43,7 @@ public class Sonda implements SondaInterface {
 	public void notifyOsservatori() {
 		// TODO Auto-generated method stub
 
-		logger.info("CHECK");
+		logger.info("********** CHECK **********");
 
 		for (Centrale osservatore : osservatori) {
 			osservatore.comunicaAllarme(this);
