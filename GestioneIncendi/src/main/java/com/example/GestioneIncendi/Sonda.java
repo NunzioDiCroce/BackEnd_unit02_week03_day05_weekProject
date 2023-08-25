@@ -3,16 +3,23 @@ package com.example.GestioneIncendi;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.extern.slf4j.Slf4j;
 
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@Slf4j
 public class Sonda implements SondaInterface {
+
+	private static final Logger logger = LoggerFactory.getLogger(Sonda.class);
 
 	private int idSonda;
 	private double latitudine;
@@ -35,6 +42,9 @@ public class Sonda implements SondaInterface {
 	@Override
 	public void notifyOsservatori() {
 		// TODO Auto-generated method stub
+
+		logger.info("CHECK");
+
 		for (Centrale osservatore : osservatori) {
 			osservatore.comunicaAllarme(this);
 		}
